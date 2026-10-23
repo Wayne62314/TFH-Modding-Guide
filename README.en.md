@@ -16,6 +16,8 @@ All 14 chapters and the supporting reference documents now have English versions
 
 ## Full English chapter index
 
+For code-led exercises, start with the **[hands-on tutorials](tutorials/README.en.md)**: environment setup, a new tutorial lesson, a battle chapter, hidden bosses, fighter/match properties, Frida hooks, input and UI integration. Newly written samples state their own validation status. [中文动手教程](tutorials/README.md).
+
 | Question | Chapter |
 |---|---|
 | What counts as evidence, inference or success? | [00 · Evidence and scope](docs/en/00-evidence-and-scope.md) |
@@ -49,7 +51,7 @@ Modules and versions may have been tested separately. Integrated regression is a
 - [Velvet Beautifier reference repository](https://github.com/Wayne62314/velvet-beautifier): important resource-format, packaging and installation references; respect its upstream and licenses.
 - [Official Frida JavaScript API](https://frida.re/docs/javascript-api/): runtime observation, NativeFunction, Interceptor and related interfaces.
 
-This repository was written separately, not made public from private research history. **It contains no private raw traces, replays, participant information, game assets, memory dumps, models or credentials.** Its two small examples only read an index or process synthetic input; neither connects to the game or injects actions.
+This repository was written separately, without importing private research history. **It contains no private raw traces, replays, participant information, game assets, memory dumps, models or credentials.** Starter examples process indexes and synthetic input. Hands-on lessons additionally supply a candidate-package builder, original Lua lesson and read-only training observer. The observer attaches through Frida but submits no input. The builder prepares local output without installing it. New samples still require in-game validation.
 
 ## Supported build and boundaries
 

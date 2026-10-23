@@ -1,0 +1,8 @@
+<Trial id="modAuthorHello" title="Mod author: hello" tutorial="trials/training/input_testing.lua" file="trials/training/input_testing.lua">
+  <Description>Original teaching sample: dialogue and resource restoration. Offline experiment.</Description>
+  <Flags>
+    <Flag listOnMenu="true" />
+    <Flag automaticallyGrantPermission="true" />
+    <Flag allowFreeplayGeneration="false" />
+  </Flags>
+</Trial>

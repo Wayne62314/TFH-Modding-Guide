@@ -4,7 +4,7 @@ from pathlib import Path
 root=Path(__file__).resolve().parents[1]
 secret=re.compile(r'gh[pousr]_[A-Za-z0-9]{25,}|github_pat_[A-Za-z0-9_]{30,}|-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----')
 userpath=re.compile(r'[A-Za-z]:[\\/]+Users[\\/]',re.I)
-allowed={'.md','.py','.json','.yml','.yaml'}
+allowed={'.md','.py','.json','.yml','.yaml','.lua','.xml','.js','.cjs'}
 problems=[];files=[]
 for path in root.rglob('*'):
     relative=path.relative_to(root)

@@ -2,7 +2,7 @@
 
 [English index](README.en.md) · [中文原文](PUBLICATION.md)
 
-This is a newly created public documentation repository, without imported private research Git history. Content is limited to original explanations, sanitized summaries, build-specific technical facts, public references and synthetic examples.
+This is a newly created public documentation repository, without imported private research Git history. Content includes original explanations, sanitized summaries, build-specific technical facts, public references and original teaching code, including a read-only observer and local candidate builder. Original game libraries are not included.
 
 Excluded: private raw logs/local paths/process-absolute addresses; participant names/accounts; original replays and user-recorded combos; complete game scripts/archives/textures/FOIT; crash dumps; model weights; credentials; runtime environments.
 

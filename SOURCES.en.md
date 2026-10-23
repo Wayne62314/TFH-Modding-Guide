@@ -44,3 +44,9 @@ These are logical archive paths/names, **not downloadable assets in this reposit
 These notes include sanitized summaries of crashes/runtime sampling, model comparisons and user playtests. Raw logs, replays, dumps, participant information and models are not included, and no links requiring private-repository access are provided. Readers cannot independently reproduce every historical observation from this text alone. Retest on the matching build under equivalent conditions and report evidence levels as in [chapter 00](docs/en/00-evidence-and-scope.md).
 
 Synthetic example tests validate the examples themselves. They do not replace original-game experiments or establish complete support for all formats/builds.
+
+## T1 · Hands-on tutorial provenance
+
+The [hands-on tutorials](tutorials/README.en.md) explain loading, flags and UI configuration using public S1 source. Locally inspected build files include Trials/training/TrialLib.lua, TutorialLib.lua, TestBed.lua and Trials/Lib/LuaLib.lua, establishing tutorial lifecycle, property wrappers and motion-call shapes. Doc/Metas.lua supplies declaration clues only, not implementations.
+
+hello.lua, the candidate builder, training observer and tests are newly written teaching code. Menu/script-slot choices derive from the earlier standalone-lesson design; observation fields follow research results. These new combinations have no in-game acceptance test. Original/candidate archives produced locally must never accompany contributions; only code and synthetic tests belong in the public repository.
