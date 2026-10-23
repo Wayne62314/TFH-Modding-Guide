@@ -1,5 +1,7 @@
 # 01 · 游戏怎样运作：入口不是一个Lua文件
 
+[English](en/01-engine-and-lifecycle.md)
+
 ## 工作模型
 
 ```mermaid

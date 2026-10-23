@@ -2,6 +2,8 @@
 
 面向 Them’s Fightin’ Herds MOD 作者的公开开发文档。不是官方SDK，也不是完整反编译源码。公开整理日期：2026-10-23；研究记录主要截至2026-10-22，验证环境为 Windows x64 的一个固定游戏构建。
 
+**[English — full documentation](README.en.md)** · 中文文档
+
 这份文档回答：**我们怎样从“想玩隐藏大熊”一步步做到角色替换、Boss 状态实验、剧情关卡、原生输入、连段与离线AI；每一步用了什么有效信息，哪些结论仍不能下。**
 
 ## 最重要的三点
@@ -29,7 +31,7 @@
 | 本构建关键字段及定位置信度 | [12 地址与字段参考](docs/12-build-specific-reference.md) |
 | 做过哪些实验、还缺哪些信息 | [13 项目路线与未知项](docs/13-development-roadmap.md) |
 
-另见 [资料来源](SOURCES.md)、[术语表](GLOSSARY.md)、[公开范围与权利说明](PUBLICATION.md)。[英文概览](README.en.md) 方便非中文作者判断是否相关；详细正文目前以中文为主。
+另见 [资料来源](SOURCES.md)、[术语表](GLOSSARY.md)、[公开范围与权利说明](PUBLICATION.md)。[完整英文版](README.en.md) 包含全部14章及来源、术语、公开范围和示例说明；技术结论与验证边界不因翻译而扩大。
 
 ## 已完成不等于全部可用
 

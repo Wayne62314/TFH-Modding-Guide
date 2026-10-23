@@ -1,5 +1,7 @@
 # 12 · 本构建原生入口与字段参考
 
+[English](en/12-build-specific-reference.md)
+
 **只适用于EXE SHA256 `03E20EECE23F39FB1012061A5A7FF92F4B63DA23EB8EB641CF6EE379CBCE373D` 的研究记录。** RVA相对已加载主模块；对象偏移相对已验证对象，不是进程绝对地址。不要为适配新版本删除校验。
 
 表中“使用过”不等于SDK保证。不同实验限制不同；组合这些偏移并不自动得到安全程序。先读[原生方法](03-native-investigation.md)和[作用域](07-performance-and-prediction.md)。

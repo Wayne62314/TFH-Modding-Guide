@@ -1,5 +1,7 @@
 # 05 · Boss不是一个开关：角色、阶段、资源和收尾
 
+[English](en/05-boss-and-resource-dependencies.md)
+
 ## 将“Boss可玩”拆成四件事
 
 1. 标志增强：某Flag切到角色既有增强分支。

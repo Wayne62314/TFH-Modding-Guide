@@ -1,5 +1,7 @@
 # 02 · 资源文件、模板与真实加载路径
 
+[English](en/02-assets-and-script-routing.md)
+
 ## 文件地图
 
 | 文件/目录线索 | 对本次工作的作用 | 易犯错误 |

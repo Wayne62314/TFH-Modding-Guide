@@ -1,5 +1,7 @@
 # 两个不连接游戏的小示例
 
+[English](README.en.md)
+
 Python 3.10以上，无外部依赖：
 
 ```powershell
